@@ -1,5 +1,7 @@
 export type StatusTypes = 'SCHEDULED' | 'IN_PROGRESS' | 'COMPLETE' | 'CANCELLED' | 'PAID' | 'DEFAULT' | string;
 
+export type PaginationTypes = 'after' | 'before' | '';
+
 export interface AppointmentServiceProps {
 	getAppointments: ({size, cursor, type}:{size: number, cursor: string, type: string}) => Promise<AppointmentsProps>,
 }
