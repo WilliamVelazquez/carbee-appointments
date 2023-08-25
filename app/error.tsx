@@ -17,7 +17,7 @@ export default function Error({
           <a href="/" className="flex items-center text-2xl font-semibold text-gray-900 dark:text-white">
             <img className="h-20" src="https://app.curbee.com/public/images/logo-primary.svg" alt="Carbee logo" />
           </a>
-          <h1 className="p-12 text-secondary font-bold text-xl">Something went wrong! Please try again!</h1>
+          <h1 className="p-12 text-secondary font-bold text-xl text-center">Something went wrong! Please try again!</h1>
           <Button
             onClick={() => reset()}
           >

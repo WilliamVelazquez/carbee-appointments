@@ -10,7 +10,6 @@ async function verifyIsAuthenticated() {
 	const fetch = useFetch();
   try{
     const data = await fetch.get('/api/token');
-		console.log('token message', data);
     return {
       data,
       error: null
