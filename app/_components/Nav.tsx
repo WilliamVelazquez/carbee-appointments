@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
-import Button from '@/components/Button';
-import useUserService from '@/services/useUserService';
+import Button from "@/components/Button";
+import useUserService from "@/services/useUserService";
 
 function Nav() {
 	const [loggingOut, setLoggingOut] = useState<boolean>(false);
