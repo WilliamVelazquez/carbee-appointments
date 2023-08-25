@@ -1,4 +1,5 @@
-import { status as statusBase } from '@/helpers/client/utils'
+import { StatusTypes } from "@/helpers/types";
+import { status as statusBase } from "@/helpers/client/utils";
 
 function Card({ date, time, minutes, services, children, status = 'DEFAULT' }: CardProps) {
 	const statusColor = statusBase[status as keyof typeof statusBase].color;
@@ -65,7 +66,7 @@ interface CardProps {
 	minutes?: string,
 	services?: Array<string>,
 	children?: React.ReactNode,
-	status?: 'SCHEDULED' | 'IN_PROGRESS' | 'COMPLETE' | 'CANCELLED' | 'PAID' | 'DEFAULT' | string,
+	status?: StatusTypes,
 }
 
 export default Card;
