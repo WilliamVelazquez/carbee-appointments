@@ -4,8 +4,11 @@ import { useState } from 'react';
 
 import Input from '@/components/Input';
 import Button from '@/components/Button';
+import useUserService from '@/services/useUserService';
 
 function Login() {
+  const userService = useUserService();
+
   const [formData, setFormData] = useState({
     username: '',
     password: ''
@@ -20,7 +23,7 @@ function Login() {
 
   const handleSubmit = (event: React.SyntheticEvent): void => {
     event.preventDefault();
-    console.log('handleSubmit----->', formData);
+    userService.login(formData.username, formData.password);
   }
 
   return (

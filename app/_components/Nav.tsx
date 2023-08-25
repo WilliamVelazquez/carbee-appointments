@@ -3,13 +3,15 @@
 import { useState } from 'react';
 
 import Button from '@/components/Button';
+import useUserService from '@/services/useUserService';
 
 function Nav() {
 	const [loggingOut, setLoggingOut] = useState<boolean>(false);
+	const userService = useUserService();
 
-	const logout = () => {
-		console.log('logging out...');
+	async function logout() {
 		setLoggingOut(true);
+		await userService.logout();
 	}
 
 	return (
