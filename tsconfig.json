@@ -22,6 +22,7 @@
     "paths": {
       "@/helpers/*": ["_helpers/*"],
       "@/services/*": ["_services/*"],
+      "@/constants/*": ["_constants/*"],
       "@/components/*": ["_components/*"],
     }
   },
