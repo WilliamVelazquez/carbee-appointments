@@ -65,6 +65,6 @@ This project is licensed under the terms of the **MIT license**.
 
 Feel free to contribute to the project!
 
-📌**Questions**
+📌**Project Reflections**
 
-You can find the questions and answers [here](./QUESTIONS.md).
+You can find project reflections [here](./QUESTIONS.md).
