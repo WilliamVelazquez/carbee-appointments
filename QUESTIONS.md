@@ -7,6 +7,8 @@ Actually, I found issues on the given API so I communicate it with the team in o
 
 I found differences on the new NextJs version when using next-auth dependency so I opted to handle the authentication by myself with a custom code.
 
+I added the pagination to the appointments list, but the endpoint is not working as expected it is returning always that there is a next page available when not and that it not has a previous page when there is at least one. I leave it that way because if the endpoint is fixed the project will work as expected.
+
 📌**How did you handle forms? In a largely formdriven project, would
 you do anything differently? If so, what?**
 
@@ -27,8 +29,7 @@ Yes, for this exercise I take the opportunity to try Tailwind css (actually I pr
 more time to spend on this, how would you spend it and how would
 you prioritize each item?**
 
-I worked on the exercise in spare moments during my workday and spent the afternoon to finishing it. If I had more time, I would work on adding more functionalities, such as the registration of new users, or the rest of operations for the appointments, create, edit, delete and the same for the availability (for now only the Read section of the CRUD operations is done), then I would like to add some additional security to the token using some tools to encrypt/decrypt and validate it. Finally, I would like to create a better UI, with more defined sections, accessibility, style and interactivity for a better user experience.
-
+I worked on the exercise in spare moments during my workday and spent the afternoon to finishing it. If I had more time, I should request a fix for the response of the appointments endpoint in order to the pagination work as expected as I mentioned on the first point of this list, then I would work on adding more functionalities, such as the registration of new users, or the rest of operations for the appointments, create, edit, delete and the same for the availability (for now only the Read section of the CRUD operations is done), then I would like to add some additional security to the token using some tools to encrypt/decrypt and validate it. Finally, I would like to create a better UI, with more defined sections, accessibility, style and interactivity for a better user experience.
 
 # Tech questions
 
