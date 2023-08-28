@@ -64,3 +64,7 @@ This project is licensed under the terms of the **MIT license**.
 ### 🎁 Contribute
 
 Feel free to contribute to the project!
+
+📌**Questions**
+
+You can find the questions and answers [here](./QUESTIONS.md).
